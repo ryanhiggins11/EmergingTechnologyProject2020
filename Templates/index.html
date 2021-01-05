@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Wind Turbine Power-output</title>
+  <meta content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <h1>Wind Turbine Power output</h1>
+
+  <p>
+    Enter a Wind speed below to get a machine learned guess of the power outputted by a wind turbine.
+  </p>
+
+  <form action="/" method="POST">
+    <label for="speed">Wind Speed: </label>
+    <br>
+    <input type="number" id="speed" name="speed" value="1" step="0.001">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>Power output: = {{prediction}}</h2>
+</body>
+
+</html>
