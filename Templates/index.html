@@ -2,26 +2,28 @@
 <html lang="en">
 
 <head>
-  <title>Wind Turbine Power-output</title>
+  <title>Wind Turbine Power-Output</title>
   <meta content="text/html; charset=utf-8" />
 </head>
 
 <body>
-  <h1>Wind Turbine Power output</h1>
+  <h1 style="text-align: center">Wind Turbine Power output</h1>
+  <h2 style="text-align: center">Ryan Higgins | G00337350</h2>
+  <h3 style="text-align: center">4TH YEAR GMIT EMERGING TECHNOLOGY</h3>
 
-  <p>
+  <p style="text-align: center">
     Enter a Wind speed below to get a machine learned guess of the power outputted by a wind turbine.
   </p>
 
-  <form action="/" method="POST">
-    <label for="speed">Wind Speed: </label>
+  <form action="/" method="POST" style="text-align: center">
+    <label for="speed" style="text-align: center">Wind Speed: </label>
     <br>
-    <input type="number" id="speed" name="speed" value="1" step="0.001">
+    <input type="number" id="speed" name="speed" value="1" step="0.001" style="text-align: center">
     <br><br>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" style="text-align: center">
   </form>
 
-  <h2>Power output: = {{prediction}}</h2>
+  <h2 style="text-align: center">Power output: = {{prediction}}</h2>
 </body>
 
 </html>
